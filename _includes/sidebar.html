@@ -1,0 +1,86 @@
+<div class="page-header">
+  <h3>
+    {{ site.title }}
+    {% if site.subtitle %}<br/><small>{{ site.subtitle }}</small>{% endif %}
+  </h3>
+</div>
+
+<p class="text-center">
+  <img width="200px" src="{{ site.url }}/img/logo-360x360.png" alt="{{ site.title }} logo">
+</p>
+
+{% if site.description %}<p>{{ site.description }}</p>{% endif %}
+
+  <script>
+    window.podcastData = {
+      "title": "{{ site['title']}}",
+      "subtitle": "{{ site['subtitle']}}",
+      "description": "{{ site['description']}}",
+      "cover": "{{ site.url }}/img/logo-360x360.png",
+      "feeds": [
+      {% for feed in site['episode_feed_formats'] %}
+        {
+          "type": "audio",
+          "format": "{{ feed }}",
+          "url": "{{ site['url']}}/episodes.{{ feed }}.rss",
+          "directory-url-itunes": "{{ site['itunes_url']}}",
+          "variant": "high"
+        },
+      {% endfor %}
+      ]
+    }
+  </script>
+</p>
+
+<hr/>
+
+<h4>RSS</h4>
+  <li><a href="https://anchor.fm/s/2ad39814/podcast/rss"><i class="fa fa-rss"></i> {{ feed }}海外听众-RSS-Feed</a></li>
+  <li><a href="http://www.ximalaya.com/album/40531606.xml"><i class="fa fa-rss"></i> {{ feed }}国内听众-RSS-Feed</a></li>
+
+<h4>Distributors</h4>
+
+  {% if site.itunes_url %}
+    <li><a href="{{ site.itunes_url }}"><img src="https://d12xoj7p9moygp.cloudfront.net/images/podcast/logo-square/006/apple_podcasts@2x.png" height="16" /></i> Apple Podcast</a></li>
+  {% endif %}
+  {% if site.google_play_url %}
+    <li><a href="{{ site.google_play_url }}"><img src="https://d12xoj7p9moygp.cloudfront.net/images/podcast/logo-square/006/google_podcasts@2x.png" height="16" /></i> Google Podcast</a></li>    
+  {% endif %}
+  {% if site.spotify_url %}
+    <li><a href="{{ site.spotify_url }}"><img src="https://d12xoj7p9moygp.cloudfront.net/images/podcast/logo-square/006/spotify@2x.png" height="16"/> Spotify</a></li>
+  {% endif %}
+  {% if site.breaker_url %}
+    <li><a href="{{ site.breaker_url }}"><img src="https://d12xoj7p9moygp.cloudfront.net/images/podcast/logo-square/006/breaker@2x.png" height="16"/> Breaker</a></li>
+  {% endif %}
+  {% if site.pocket_url %}
+    <li><a href="{{ site.pocket_url }}"><img src="https://d12xoj7p9moygp.cloudfront.net/images/podcast/logo-square/006/pocket_casts@2x.png" height="16" /> Pocket Cast</a></li>
+  {% endif %}
+  {% if site.radiopublic_url %}
+    <li><a href="{{ site.radiopublic_url }}"><img src="https://d12xoj7p9moygp.cloudfront.net/images/podcast/logo-square/006/radiopublic@2x.png" height="16" /> Radio Public</a></li>
+  {% endif %}
+
+<h4>License</h4>
+
+{% if site.license_url %}
+  <a rel="license" href="{{ site.license_url }}">
+    {% if site.license_image_url %}
+      <img alt="Creative Commons License" style="border-width:0" src="{{ site.license_image_url }}" />
+    {% else %}
+      {{ site.license }}
+    {% endif %}
+  </a>
+{% endif %}
+
+<hr/>
+
+{% if site.flattr_uid %}
+  <span class="pull-left">{{ site | flattr_button }}</span>
+{% endif %}
+
+{% if site.twitter_nick %}
+  <a href="https://twitter.com/{{ site.twitter_nick }}"
+     class="button btn-primary btn-sm"
+     data-show-count="false">
+    <i class="fab fa-twitter"></i>Follow @{{ site.twitter_nick }}
+  </a>
+{% endif %}
