@@ -6,12 +6,7 @@ navigation: 1
 
 # Media Owner and Content
 
-... put in information here ...
-
-# Links
-
-... put in information here ...
-
+公众号：CC猫在德国
 
 # License
 
