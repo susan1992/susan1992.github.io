@@ -1,16 +1,12 @@
 title: 幸福猫 HappyCat
 url: http://localhost:4000
 
-### download_url: is needed, if and only if audio files are hosted in a different location, it is the path of the directory where the audio files are stored
 download_url: "https://anchor.fm/happycatpodcast"
 subtitle: Happy Cat, Happy Life
 description: 这是一档介绍华人旅德生活的播客。公众号：CC猫在德国
 author: Yuchen
-
-### author_url: This is the URL of a site owned by the author (see https://jsonfeed.org/version/1)
 author_url: "http://happycat.cc/"
 
-#email: octopod@example.com
 keywords: [Germany, Expat, WorkingInGermany, LivingInGermany, Chinese]
 itunes_categories: [Technology]
 episodes_per_feed_page: 10
@@ -19,15 +15,6 @@ player_theme: default # default | "default-dark" | legacy | minimal | republica
 
 ### Date can be localized via date_de.rb plugin, you don't need to change this
 date_format: ordinal
-
-### Rsync Deploy config: Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_host: user@host.org
-ssh_port: 22
-document_root: /path/to/your/htdocs/
-rsync_delete: true
-
-### Twiter config, optional
-# twitter_nick: my_twitter_handle # Twitter will not be used unless this is set
 
 language: en
 explicit: "no" # "yes" | "no" | clean
@@ -45,38 +32,7 @@ breaker_url: https://www.breaker.audio/zi-de-qi-le
 pocket_url: https://pca.st/ojwfex61
 radiopublic_url: https://radiopublic.com/-GOVYml
 
-### Additional Feeds, optional
-#  itunes: http://itunes.apple.com/de/podcast/podcast_name/id42424242
-#  torrent_m4a: http://bitlove.org/example_user/example_podcast_m4a/feed
-#  torrent_mp3: http://bitlove.org/example_user/example_podcast_mp3/feed
-
-### Flattr config, optional
-flattr_uid: # Flattr will not be used unless this is set
-flattr_button: compact # compact | default
-flattr_mode: auto # auto | manual
-flattr_popout:  1 # 1 | 0 (show popout when hovering mouse over button)
-flattr_language: en_GB # available languages see https://api.flattr.com/rest/v2/languages.txt
-flattr_category: audio # available categories see https://api.flattr.com/rest/v2/categories.txt
-
-### Disqus comments
-disqus_shortname: # Disqus will not be used unless this is set
-disqus_developer: 0 # 1 | 0
-
-### Isso comments
-use_isso: "no" # "no" | "yes"
-
 theme: jekyll-bootflat
 
-### Jekyll Admin: uncomment the last line of this paragraph to enable Jekyll Admin.
-### (but you will loose auto regeneration after code changes with a text editor then)
 plugins:
   - jekyll-octopod
-#  - jekyll-admin
-
-### Links to all domains, expect whitelisted will be rendered with rel="nofollow noopener noreferrer"
-# kramdown:
-#   input: 'NoopenerGFM'
-#   same_tab_domains:
-#     - localhost
-#     - 127.0.0.1
-#     - podcast.your-domain.com
