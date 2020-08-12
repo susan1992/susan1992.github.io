@@ -1,8 +1,8 @@
 source 'http://rubygems.org'
 
-gem 'jekyll'
+gem "github-pages", "~> 207", group: :jekyll_plugins
 
 group :jekyll_plugins do
-#   gem 'jekyll-octopod', "0.9.5"
-  gem 'jekyll-octopod', git: "https://github.com/jekyll-octopod/jekyll-octopod"
+gem 'jekyll-octopod', "0.9.5"
+  # gem 'jekyll-octopod', git: "https://github.com/jekyll-octopod/jekyll-octopod"
 end
