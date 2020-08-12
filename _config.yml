@@ -36,3 +36,8 @@ theme: jekyll-bootflat
 
 plugins:
   - jekyll-octopod
+
+webrick:
+  headers:
+    Access-Control-Allow-Origin: "*"
+    Access-Control-Request-Method: "GET"
