@@ -32,7 +32,7 @@ breaker_url: https://www.breaker.audio/zi-de-qi-le
 pocket_url: https://pca.st/ojwfex61
 radiopublic_url: https://radiopublic.com/-GOVYml
 
-remote_theme: jekyll-bootflat
+theme: jekyll-bootflat
 
 plugins:
   - jekyll-octopod
