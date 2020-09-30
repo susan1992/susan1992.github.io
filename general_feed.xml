@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>幸福猫 HappyCat</title>
-  <link href="http://localhost:4000/general_feed.xml" rel="self"/>
-  <link href="http://localhost:4000"/>
+  <link href="http://happycat.cc/general_feed.xml" rel="self"/>
+  <link href="http://happycat.cc"/>
   <updated>2020-09-30T09:36:07+02:00</updated>
-  <id>http://localhost:4000/</id>
+  <id>http://happycat.cc/</id>
   <author>
     <name>Yuchen</name>
     <email></email>
@@ -14,9 +14,9 @@
   
     <entry>
       <title>从四川小村庄到德国汉堡，普通姑娘Lena越努力越幸运的不普通人生</title>
-      <link href="http://localhost:4000/2020/09/30/episode2.html"/>
+      <link href="http://happycat.cc/2020/09/30/episode2.html"/>
       <updated>2020-09-30T00:00:00+02:00</updated>
-      <id>http://localhost:4000/2020/09/30/episode2</id>
+      <id>http://happycat.cc/2020/09/30/episode2</id>
       <content type="html">&lt;h3 id=&quot;在线收听&quot;&gt;在线收听&lt;/h3&gt;
 
 &lt;h4 id=&quot;海外听众点这里&quot;&gt;海外听众点这里&lt;/h4&gt;
@@ -74,9 +74,9 @@
   
     <entry>
       <title>从中关村软件园到德国，程序员也可以拥有诗和远方</title>
-      <link href="http://localhost:4000/2020/08/10/episode1.html"/>
+      <link href="http://happycat.cc/2020/08/10/episode1.html"/>
       <updated>2020-08-10T00:00:00+02:00</updated>
-      <id>http://localhost:4000/2020/08/10/episode1</id>
+      <id>http://happycat.cc/2020/08/10/episode1</id>
       <content type="html">&lt;h3 id=&quot;在线收听&quot;&gt;在线收听&lt;/h3&gt;
 
 &lt;h4 id=&quot;海外听众点这里&quot;&gt;海外听众点这里&lt;/h4&gt;
