@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="https://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>幸福猫 HappyCat</title>
   <link href="https://happycat.cc/general_feed.xml" rel="self"/>
   <link href="https://happycat.cc"/>
-  <updated>2020-09-30T09:36:07+02:00</updated>
+  <updated>2020-09-30T10:07:28+02:00</updated>
   <id>https://happycat.cc/</id>
   <author>
     <name>Yuchen</name>
