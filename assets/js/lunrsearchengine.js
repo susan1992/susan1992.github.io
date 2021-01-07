@@ -7,8 +7,8 @@ var documents = [{
     }, {
     "id": 1,
     "url": "/about",
-    "title": "Mediumish Template for Jekyll",
-    "body": "This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.  Documentation: Please, read the docs here. Questions or bug reports?: Head over to our Github repository! Buy me a coffeeThank you for your support! Your donation helps me to maintain and improve Mediumish . Buy me a coffee Documentation"
+    "title": "About us",
+    "body": "你好，谢谢你找到住在德国的CC猫。我是旅居德国的程序员，运营这个网站分享德国工作信息，职场提升，和大家来德国的故事。如果你也想讲讲你的故事，欢迎联系我。我也在制作播客幸福猫，分享旅德中国人的故事。如果你是CS/Info相关专业的德国留学生，咨询德国职业路线/德国找工作，请整理好问题后联系，老学姐很乐意帮忙做规划+内推。如果你是已经工作的IT从业人员，咨询德国工作，请关注微信公众号 CC猫在德国。 联系我: Email：thehappycatpodcast@gmail. com Buy me a Bubble Tea 买杯奶茶嘛  微信扫码给CC猫加个小鱼干"
     }, {
     "id": 2,
     "url": "/categories",
