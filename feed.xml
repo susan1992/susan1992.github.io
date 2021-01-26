@@ -5,9 +5,150 @@
     <description>分享德国生活和工作的那些事情。</description>
     <link>http://happycat.cc/</link>
     <atom:link href="http://happycat.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jan 2021 15:30:49 +0100</pubDate>
-    <lastBuildDate>Wed, 20 Jan 2021 15:30:49 +0100</lastBuildDate>
+    <pubDate>Tue, 26 Jan 2021 11:29:21 +0100</pubDate>
+    <lastBuildDate>Tue, 26 Jan 2021 11:29:21 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>月底能存多少钱？德国生活费用计算器</title>
+        <description>&lt;p&gt;你喜欢充满艺术气息的柏林，还是啤酒超好喝的慕尼黑，或者好多日本拉面店的杜塞尔多夫？在考虑职业规划的时候，搬家并不罕见。然而搬家会对你的财务状况造成怎样的影响？是工作在高薪的慕尼黑可以存下更多钱吗？&lt;/p&gt;
+
+&lt;p&gt;StepStone对这些问题进行了调查，并在一份大型成本报告中给出了395个城市和乡镇地区的128,000份薪水和生活费用。结论：工作在高薪的大城市，并不能保证你月底剩下更多的钱。&lt;/p&gt;
+
+&lt;p&gt;根据调查结果，在鲁尔区工作能让你的钱包里存下更多钱，这里平均工资高，但租金等生活成本相对较低。而慕尼黑这样的繁华大都市提供了高薪，员工们缺不得不在日常生活上花费更多。埃森（Essen）是所有大城市中的最大赢家，在这里工作能比慕尼黑存下3倍的钱。如果从这个角度考虑，法兰克福或斯图加特这样的大城市也没有显著的优势。&lt;/p&gt;
+
+&lt;p&gt;如果你是一名在慕尼黑工作的Software Developer，如果搬家到Essen或Karlsruhe，每年可以多存下6000多欧。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;城市&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;税前工资（€/年）&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;生活成本&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;余额&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Essen&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;51000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18678&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11921&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Karlsruhe&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;56000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;21767&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;11832&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Heidelberg&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;56000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;22973&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10626&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Leipzig&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;46000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;17122&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10477&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Düsseldorf&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;56000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;23520&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;10080&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Köln&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;55000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;23100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;9900&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Nürnberg&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;54000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;22680&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;9720&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hannover&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;52000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;21840&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;9360&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Dresden&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;46000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18882&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8717&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stuttgart&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;59000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;27209&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;8190&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Hamburg&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;54000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;26539&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5860&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Berlin&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;52000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;26681&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4518&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Frankfurt&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;55000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;28560&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4439&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;München&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;59000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;31283&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4116&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;这个数据是如何计算的&quot;&gt;这个数据是如何计算的&lt;/h4&gt;
+
+&lt;p&gt;该计算基于以下假设：德国员工平均将其净收入的70％用于生活水平的投资：租金40％，生活用品15％，休闲活动10％和通勤5％。适用于任何居住地点和工资金额。净工资按总工资的60％计算。所有薪水数字仅供参考，已四舍五入。&lt;/p&gt;
+
+&lt;p&gt;您实际生活条件的费用可能会因您的个人生活方式而异。&lt;/p&gt;
+
+&lt;p&gt;生活数据的成本来自immowelt和Numbeo。&lt;/p&gt;
+
+&lt;p&gt;工资数据基于StepStone工资数据库（您的个人工资可能与平均工资有所不同。在这种情况下，只需将自动填充的平均工资替换为您的实际工资）。&lt;/p&gt;
+
+&lt;p&gt;StepStone生活费用计算器是与杜塞尔多夫大学统计与计量经济学的Prof. Dr. Florian Heiß教授合作完成。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mein Gehalt（我的工资）会自动填入所选城市的平均值，可按实际需求填入自己的实际工资。&lt;/li&gt;
+  &lt;li&gt;Mein Gehalt 默认选项为Netto（税后工资/净工资，按税前工资的60%计算），可以更改为Brutto（税前工资）。&lt;/li&gt;
+  &lt;li&gt;60%的净工资计算方法只适用于大概估算，只能代表单身/夫妻无孩/1级税卡。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div&gt; 
+    &lt;iframe src=&quot;https://www.stepstone.de/lebenshaltungskosten.html&quot; width=&quot;800px&quot; height=&quot;600px&quot;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 26 Jan 2021 00:00:00 +0100</pubDate>
+        <link>http://happycat.cc/cost-of-living-in-germany/</link>
+        <guid isPermaLink="true">http://happycat.cc/cost-of-living-in-germany/</guid>
+        
+        
+        <category>Working in Germany</category>
+        
+      </item>
     
       <item>
         <title>下班后的工作消息要不要回？德国打工人：不回！</title>
@@ -796,167 +937,6 @@
         <category>Landed In Germany</category>
         
         <category>Happy Cat Podcast</category>
-        
-      </item>
-    
-      <item>
-        <title>德国打工人，如何理财？</title>
-        <description>&lt;p&gt;刚刚工作，是不是觉得手里的钱一下子多了好多！在德国也要保持中华民族爱存钱的好传统哦，这篇文章帮大家整理了职场新人应该了解的基本理财方法，快看看有哪些是你还不知道的！&lt;/p&gt;
-
-&lt;p&gt;不过，在理财之前，你应该先回答3个问题&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;理财的目的？&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;积累更多资产，用于购置房屋或者环游世界&lt;/li&gt;
-      &lt;li&gt;为退休生活做保障&lt;/li&gt;
-      &lt;li&gt;攒一笔短期应急的钱&lt;/li&gt;
-      &lt;li&gt;灾难准备金&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;有多少钱可以用于理财？&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;确定你想要或者可以留出多少收入用于理财。这个范围的确定和你的理财目标相关，比如最初可以用10%来尝试。&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;必要的银行账户&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;Girokonto，现金账户，用于日常支出的银行账户，一般无利息或利息极低&lt;/li&gt;
-      &lt;li&gt;Spar/Tagesgeldkonto，存款账户/活期存款账户，有利息，用于长期或暂时保管现金&lt;/li&gt;
-      &lt;li&gt;Aktiendepot，股票账户，如果股票是你投资计划的一部分&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h5 id=&quot;存款账户&quot;&gt;存款账户&lt;/h5&gt;
-
-&lt;p&gt;两种可以考虑用于理财的存款账户：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;活期存款账户(Tagesgeldkonto)&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;短到中期投资&lt;/em&gt;&lt;/p&gt;
-
-    &lt;p&gt;由于当前的超低利率，活期存款账户只适合需要灵活存取的情况&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;定期存款账户(Festgeldkonto)&lt;/p&gt;
-
-    &lt;p&gt;&lt;em&gt;中到长期投资&lt;/em&gt;&lt;/p&gt;
-
-    &lt;p&gt;定期存款的期限最短1个月，最多10年，是一种不灵活且利润低的投资&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;我在网上比较之后，发现目前德国境内Tagesgeldkonto利率在0.05%-0.1%左右。&lt;/p&gt;
-
-&lt;p&gt;除了考虑赚微薄的利息开户外，更重要的是&lt;strong&gt;换一家没有管理费的Girokonto&lt;/strong&gt;，能够实打实的节省每年几十欧。&lt;/p&gt;
-
-&lt;h5 id=&quot;股票账户aktiendepot&quot;&gt;股票账户(Aktiendepot)&lt;/h5&gt;
-
-&lt;p&gt;&lt;em&gt;中到长期投资&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;除了购买某个公司的股票外，也可以考虑同时投资多个公司的股票以降低风险，比如每月定期投资基金，或指数基金ETF。VL的钱也可以用于投资基金（详见下文VL）。&lt;/p&gt;
-
-&lt;p&gt;股票是一种灵活且可以盈利的投资方式，但是你必须要了解投资股票的风险。&lt;/p&gt;
-
-&lt;h5 id=&quot;投资型人寿保险kapitalgebundene-lebensversicherung&quot;&gt;投资型人寿保险(Kapitalgebundene Lebensversicherung)&lt;/h5&gt;
-
-&lt;p&gt;&lt;em&gt;中到长期投资&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;投资型人寿保险是保险和投资的结合，具有税收优势，合同结束时只需要对一半的盈利上税。人寿保险只会在合同到期或被保险人去世时支付，如果有紧急情况需要用到这笔钱，将不得不承受一定的损失。&lt;/p&gt;
-
-&lt;h5 id=&quot;建房储蓄bausparen&quot;&gt;建房储蓄(Bausparen)&lt;/h5&gt;
-
-&lt;p&gt;&lt;em&gt;中到长期投资&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;建房储蓄合同是一种现在存钱，未来买房/建房的储蓄方式。&lt;/p&gt;
-
-&lt;p&gt;分为两个阶段，储蓄阶段和贷款阶段。举个例子，计划为未来买房准备10万欧元，和银行签订Bauspar合同，每月向账户里存钱，存款达到5万欧元后，从银行拿到10万欧元：自己存的5万和一笔按照签订合同时的低利率5万欧元的贷款。&lt;/p&gt;
-
-&lt;p&gt;一般购房需要还款15年，甚至20年以上，通过Bauspar可以为未来锁定一个优惠利率，这个优惠利率比和银行签订15年或20年的贷款合同的利率要低得多。&lt;/p&gt;
-
-&lt;h5 id=&quot;vlvermögenwirksame-leistungen&quot;&gt;VL(Vermögenwirksame Leistungen)&lt;/h5&gt;
-
-&lt;p&gt;&lt;em&gt;长期投资&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;许多德国公司会为雇员提供VL储蓄计划：公司每月为你提供最多40欧元的现金，你有多种选择来使用这笔钱：每月定投基金、存到Bauspar账户中、还房屋贷款、或者简单的存到你的银行账户中。&lt;/p&gt;
-
-&lt;p&gt;如果你还不知道VL，和公司里有经验的同事或HR打听一下，不要浪费这笔钱，公司白给的，一年累积下来也有几百块了。&lt;/p&gt;
-
-&lt;h5 id=&quot;工作时间账户arbeitszeitkonto&quot;&gt;工作时间账户(Arbeitszeitkonto)&lt;/h5&gt;
-
-&lt;p&gt;&lt;em&gt;长期投资&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;许多德国公司都有Arbeitszeitkonto，记录你的工作时间和加班时间。&lt;/p&gt;
-
-&lt;p&gt;为什么这是一种投资方法呢？&lt;/p&gt;
-
-&lt;p&gt;你可以把你的奖金、加班时间、甚至工资的一部分转入这个账户，来购买时间。购买的时间可以以后折现，也可以用来提前退休，或突发情况下急需休假。&lt;/p&gt;
-
-&lt;p&gt;尽早做这件事情，职场萌新的每小时工资比已经拥有丰富工作经验的人们低多了，相当于&lt;strong&gt;投资自己的工资涨幅&lt;/strong&gt;。&lt;/p&gt;
-
-&lt;p&gt;自己的职场发展，比任何一家公司的股票都值得信赖吧。&lt;/p&gt;
-
-&lt;h5 id=&quot;公司股票&quot;&gt;公司股票&lt;/h5&gt;
-
-&lt;p&gt;&lt;em&gt;短期/长期投资&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;许多公司都提供给员工购买公司股票的优惠。在有折扣的情况下，能买多少就买多少，既然入职这家公司，说明你好这家公司的未来发展。哪怕买到手就卖，也是赚的。&lt;/p&gt;
-
-&lt;h5 id=&quot;养老保险&quot;&gt;养老保险&lt;/h5&gt;
-
-&lt;p&gt;&lt;em&gt;长期投资&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;除了政府提供的退休保险（Rentenversicherung）外，在公司就职的员工还有由公司提供的养老保险选择：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;企业养老保险 Betriebliche Altersversorge，&lt;/p&gt;
-
-    &lt;p&gt;在一些公司也叫做Mitarbeiterfinanzierte Altersversorge。这种养老保险遵循的是Entgeltunwandlungen （Deferred Compensation），员工自付一半保险费，企业补贴一半 （也有公司是1/3，2/3），员工自付部分免税、免法定医疗保险费。退休后领取的养老金部分再交法定医疗保险费。&lt;/p&gt;
-
-    &lt;p&gt;企业养老保险是德国养老保险体系中重要的组成部分，如果确定要在德国养老，请务必仔细考虑是否参加企业养老保险。&lt;/p&gt;
-
-    &lt;p&gt;同时也应该注意自己所在公司的企业养老保险的规定，换公司是否可以转移，是否可以转移雇主所交的部分，交多少年可以开始领取。&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;公司资助的养老保险保险 Unternehmensfinanzierte Altersversorge，&lt;/p&gt;
-
-    &lt;p&gt;这些保险完全由公司支付，不需要员工付费。免费的，不要就是浪费！通常有以下选择：&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;
-        &lt;p&gt;Berufsunfähigkeitsversorgung 职业伤残保险&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Hinterbliebenenversorgung 意外身亡保险&lt;/p&gt;
-      &lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;Altersversorge 养老保险&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-
-    &lt;p&gt;注意意外身亡保险: &lt;strong&gt;只有直系亲属和婚姻关系&lt;/strong&gt;可以获得这笔钱。&lt;/p&gt;
-
-    &lt;p&gt;职业伤残保险和意外身亡保险的额度应&lt;strong&gt;覆盖你已经有的贷款&lt;/strong&gt;。&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-</description>
-        <pubDate>Tue, 01 Sep 2020 00:00:00 +0200</pubDate>
-        <link>http://happycat.cc/invest-in-germany/</link>
-        <guid isPermaLink="true">http://happycat.cc/invest-in-germany/</guid>
-        
-        
-        <category>Working in Germany</category>
         
       </item>
     
