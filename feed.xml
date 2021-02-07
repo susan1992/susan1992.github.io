@@ -5,8 +5,8 @@
     <description>分享德国生活和工作的那些事情。</description>
     <link>http://happycat.cc/</link>
     <atom:link href="http://happycat.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Feb 2021 21:12:25 +0100</pubDate>
-    <lastBuildDate>Sun, 07 Feb 2021 21:12:25 +0100</lastBuildDate>
+    <pubDate>Sun, 07 Feb 2021 21:51:02 +0100</pubDate>
+    <lastBuildDate>Sun, 07 Feb 2021 21:51:02 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -87,9 +87,9 @@
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;博世&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;€64064&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;€76645&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;€83752&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€65132&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€75304&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€84709&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;亚马逊&lt;/td&gt;
@@ -103,7 +103,7 @@
 &lt;p&gt;&lt;br /&gt;
 SAP，Amazon，Zalando的工资数据来自Glassdoor，level.fyi以及小伙伴们提供的中位数。&lt;/p&gt;
 
-&lt;p&gt;Bosch的工资有每个级别对应的公开数据，采用的数据来自巴符州IG Metall工会：分别为EG12，EG14，EG16, 包括IG Metall提供的平均Leistungszulage 7.5%，度假金，Sonderzahlung 25%。&lt;/p&gt;
+&lt;p&gt;Bosch的工资有每个级别对应的公开数据，采用的数据来自巴符州IG Metall工会：分别为EG12 + Leistungszulage 7.5%，EG14 + Leistungszulage 10%，EG15+Leistungszulage 17% ，以及额外1.5个月的工资。计算方法不精确，就算个大概。&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
