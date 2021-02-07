@@ -5,9 +5,138 @@
     <description>分享德国生活和工作的那些事情。</description>
     <link>http://happycat.cc/</link>
     <atom:link href="http://happycat.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Feb 2021 14:11:28 +0100</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2021 14:11:28 +0100</lastBuildDate>
+    <pubDate>Sun, 07 Feb 2021 15:30:56 +0100</pubDate>
+    <lastBuildDate>Sun, 07 Feb 2021 15:30:56 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>德国程序员赚多少？2021版</title>
+        <description>&lt;p&gt;这篇文章是CC猫的求职101系列的一篇，提供了德国几个类型公司的工资数据，给想了解德国工作市场的朋友们做个参考。&lt;/p&gt;
+
+&lt;h3 id=&quot;先划一条baseline&quot;&gt;先划一条baseline&lt;/h3&gt;
+
+&lt;p&gt;求职网站Stepstone的2020年薪酬报告指出：&lt;/p&gt;
+
+&lt;p&gt;IT行业平均薪酬为€60545/年，高等学历教育毕业的雇员的平均薪酬为&lt;strong&gt;€65172/年&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;其中，软件工程师的薪酬随着工作经验的增长，平均工资如下：&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;工作经验&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;平均税前工资（欧元/年）&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;lt;2年&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€46393&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;3-5年&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€54931&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6-10年&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€60582&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&amp;gt;10年&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€67975&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;到底能赚多少钱&quot;&gt;到底能赚多少钱？&lt;/h4&gt;
+
+&lt;p&gt;先介绍下四家公司代表：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SAP：德国软件公司。&lt;/li&gt;
+  &lt;li&gt;Zalando：德国互联网公司。&lt;/li&gt;
+  &lt;li&gt;Bosch：德国制造业公司。&lt;/li&gt;
+  &lt;li&gt;Amazon：美国公司的德国分公司&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;一个软件工程师在这四家公司中可以期待的薪酬（含奖金）&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;公司&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;{New Grad 0-1}&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;{Mid Level 3-5}&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;{Senior 5-10}&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;SAP&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€51000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€65000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€72000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Zalando&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€50181&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€64900&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€73000&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;博世&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€64205&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€76645&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€81720&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;亚马逊&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€69720&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€86310&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€104160&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;br /&gt;
+SAP，Amazon，Zalando的工资数据来自Glassdoor，level.fyi以及小伙伴们提供的中位数。&lt;/p&gt;
+
+&lt;p&gt;Bosch的工资有每个级别对应的公开数据，采用的数据来自巴符州IG Metall工会：分别为EG12，EG14，EG16, 包括IG Metall提供的平均Leistungszulage 7.5%，度假金，Sonderzahlung 25%。&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;我怎么看德国职业市场&quot;&gt;我怎么看德国职业市场：&lt;/h4&gt;
+
+&lt;p&gt;德国程序员们面对的公司大概分为4种:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;德国中小公司&lt;/li&gt;
+  &lt;li&gt;德国大公司: SAP，Bosch，Daimler，Siemens…&lt;/li&gt;
+  &lt;li&gt;模仿美国公司的德国公司: 互联网公司，StartUps…&lt;/li&gt;
+  &lt;li&gt;美国公司&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;工龄更重要：德国中小公司 = 德国大公司 &amp;gt; 模仿美国公司的德国公司 = 美国公司&lt;/p&gt;
+
+&lt;p&gt;工资更高：德国中小公司 &amp;lt; 德国大公司 = 模仿美国公司的德国公司 « 美国公司&lt;/p&gt;
+
+&lt;p&gt;说德语更多：德国中小公司 = 德国大公司 « 模仿美国公司的德国公司 &amp;lt; 美国公司&lt;/p&gt;
+
+&lt;p&gt;普通程序员的压力：德国中小公司 = 德国大公司 &amp;lt; 模仿美国公司的德国公司 &amp;lt;= 美国公司&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;工资数据仅供参考，希望能帮到想初步了解德国工作市场的朋友们～&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Feb 2021 00:00:00 +0100</pubDate>
+        <link>http://happycat.cc/salary/</link>
+        <guid isPermaLink="true">http://happycat.cc/salary/</guid>
+        
+        
+        <category>Find a Job in Germany</category>
+        
+      </item>
     
       <item>
         <title>怎么来德国：留学，工作，永久居留</title>
@@ -879,75 +1008,6 @@
         <pubDate>Tue, 08 Dec 2020 00:00:00 +0100</pubDate>
         <link>http://happycat.cc/job-searching-in-germany/</link>
         <guid isPermaLink="true">http://happycat.cc/job-searching-in-germany/</guid>
-        
-        
-        <category>Find a Job in Germany</category>
-        
-      </item>
-    
-      <item>
-        <title>不会德语，在德国能找到工作吗？</title>
-        <description>&lt;p&gt;能！德国有很多只说英文的职位和公司。柏林、慕尼黑这样的大城市里有大量的英文职位，国际化的本地公司，开放的Startup，其他国家公司的德国分公司，总能找到适合你的职位。此外，大公司聚集的小城镇也有不少不讲德语的外国人。&lt;/p&gt;
-
-&lt;p&gt;虽然不是美加澳新这样的传统移民国家，但从数据上，已经变成了移民净流入国。&lt;/p&gt;
-
-&lt;p&gt;与其担心有没有英语职位，不如自己搜索看看？ &lt;a href=&quot;/job-searching-in-germany&quot;&gt;德国求职渠道：网站、招聘会、猎头&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;例外：如果你的职业不那么全球通用，比如会计、律师，那你可能要谨慎考虑直接在海外找工作了。&lt;/p&gt;
-
-&lt;h4 id=&quot;怎么判断这个职位是说英语的&quot;&gt;怎么判断这个职位是说英语的？&lt;/h4&gt;
-
-&lt;p&gt;如果职位用英语发布，有没有写明对德语的要求，那就是英语的职位啦。&lt;/p&gt;
-
-&lt;p&gt;有些职位会写，Fluent in German preferred，别慌，也投递试试，说不定会因为你高超的技术水平发合同给你。&lt;/p&gt;
-
-&lt;h4 id=&quot;在德国生活一定要学德语吗&quot;&gt;在德国生活一定要学德语吗？&lt;/h4&gt;
-
-&lt;p&gt;不是的，但我建议你学一点，方便自己的生活。&lt;/p&gt;
-
-&lt;p&gt;我在汉堡读书的时候，不会德语也不说德语，不影响学习和日常生活。但或多或少的，不说本地语言，总会有点不方便。&lt;/p&gt;
-
-&lt;p&gt;如果你短期内没有学习德语的打算，不如选一个国际化的大都市。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;更容易结交到和你一样，不讲德语或愿意讲英语的朋友；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;政府机构、饭店、宾馆、商场等各类平时会接触的工作人员多多少少都可以讲英语，某些商场甚至还有中文导购；&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;大城市的国际化程度更高，市民更适应周一越南菜，周二泰国菜，周三中餐馆的生活，也就更接受多元文化。&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;什么样的英语水平可以在德国工作&quot;&gt;什么样的英语水平可以在德国工作？&lt;/h4&gt;
-
-&lt;h5 id=&quot;听&quot;&gt;听&lt;/h5&gt;
-
-&lt;p&gt;可以不带字幕，完全理解英文专业公开课。&lt;/p&gt;
-
-&lt;p&gt;能听懂生活类科技类的英文YouTube视频/Podcast。&lt;/p&gt;
-
-&lt;h5 id=&quot;说&quot;&gt;说&lt;/h5&gt;
-
-&lt;p&gt;可以无障碍表达自己的想法。&lt;/p&gt;
-
-&lt;p&gt;语句简单，口音不标准，都不是问题。德国人说英语也有德语口音。&lt;/p&gt;
-
-&lt;p&gt;试试用英文做一个自我介绍：你是谁，你从哪里毕业，你目前的工作内容，为什么想要来德国工作，是否可以流畅表达？&lt;/p&gt;
-
-&lt;h5 id=&quot;读&quot;&gt;读&lt;/h5&gt;
-
-&lt;p&gt;流畅阅读本专业的英文技术文档。&lt;/p&gt;
-
-&lt;h5 id=&quot;写&quot;&gt;写&lt;/h5&gt;
-
-&lt;p&gt;能满足以上三条，应该也可以写简单工作邮件啦，我有的时候也会一边查词典一点写工作邮件🙈&lt;/p&gt;
-</description>
-        <pubDate>Fri, 09 Oct 2020 00:00:00 +0200</pubDate>
-        <link>http://happycat.cc/working-in-germany-and-speaking-english/</link>
-        <guid isPermaLink="true">http://happycat.cc/working-in-germany-and-speaking-english/</guid>
         
         
         <category>Find a Job in Germany</category>
