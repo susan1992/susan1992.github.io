@@ -5,8 +5,8 @@
     <description>分享德国生活和工作的那些事情。</description>
     <link>http://happycat.cc/</link>
     <atom:link href="http://happycat.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 07 Feb 2021 21:51:02 +0100</pubDate>
-    <lastBuildDate>Sun, 07 Feb 2021 21:51:02 +0100</lastBuildDate>
+    <pubDate>Mon, 08 Feb 2021 09:50:41 +0100</pubDate>
+    <lastBuildDate>Mon, 08 Feb 2021 09:50:41 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -77,31 +77,31 @@
       &lt;td&gt;SAP&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;€51000&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;€65000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;€72000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€79000&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;Zalando&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;€50181&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;€64900&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;€73000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€53000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€68000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€83000&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;博世&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;€65132&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€60587&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;€75304&lt;/td&gt;
       &lt;td style=&quot;text-align: center&quot;&gt;€84709&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
       &lt;td&gt;亚马逊&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;€69720&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;€86310&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;€104160&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€74480&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;€103000&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;–&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 
 &lt;p&gt;&lt;br /&gt;
-SAP，Amazon，Zalando的工资数据来自Glassdoor，level.fyi以及小伙伴们提供的中位数。&lt;/p&gt;
+SAP，Amazon，Zalando的工资数据来自Glassdoor，level.fyi以及小伙伴们提供的中位数。其中Amazon的薪资包括了股票。&lt;/p&gt;
 
 &lt;p&gt;Bosch的工资有每个级别对应的公开数据，采用的数据来自巴符州IG Metall工会：分别为EG12 + Leistungszulage 7.5%，EG14 + Leistungszulage 10%，EG15+Leistungszulage 17% ，以及额外1.5个月的工资。计算方法不精确，就算个大概。&lt;/p&gt;
 
@@ -125,9 +125,7 @@ SAP，Amazon，Zalando的工资数据来自Glassdoor，level.fyi以及小伙伴�
 
 &lt;p&gt;普通程序员的压力：德国中小公司 = 德国大公司 &amp;lt; 模仿美国公司的德国公司 &amp;lt;= 美国公司&lt;/p&gt;
 
-&lt;h2 id=&quot;最后想提醒大家高薪可能代表更多的责任更大的压力&quot;&gt;最后想提醒大家，高薪可能代表更多的责任，更大的压力。&lt;/h2&gt;
-
-&lt;p&gt;以上比较都是我的个人看法，不能代表所有公司的情况。&lt;/p&gt;
+&lt;p&gt;以上比较都是我的个人看法，不能代表所有公司的情况。羡慕亚麻工资高的小伙伴，不妨想想他们在AWS on call的压力，钱越多，责任越大。&lt;/p&gt;
 </description>
         <pubDate>Sat, 06 Feb 2021 00:00:00 +0100</pubDate>
         <link>http://happycat.cc/salary/</link>
