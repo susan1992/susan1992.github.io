@@ -5,8 +5,8 @@
     <description>分享德国生活和工作的那些事情。</description>
     <link>http://happycat.cc/</link>
     <atom:link href="http://happycat.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Feb 2021 09:50:41 +0100</pubDate>
-    <lastBuildDate>Mon, 08 Feb 2021 09:50:41 +0100</lastBuildDate>
+    <pubDate>Mon, 08 Feb 2021 09:57:43 +0100</pubDate>
+    <lastBuildDate>Mon, 08 Feb 2021 09:57:43 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -67,9 +67,9 @@
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th&gt;公司&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;{New Grad 0-1}&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;{Mid Level 3-5}&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;{Senior 5-10}&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;New Grad&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Mid Level&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Senior&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
