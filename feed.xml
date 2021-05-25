@@ -5,9 +5,124 @@
     <description>分享德国生活和工作的那些事情。</description>
     <link>http://happycat.cc/</link>
     <atom:link href="http://happycat.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 25 Mar 2021 00:07:41 +0100</pubDate>
-    <lastBuildDate>Thu, 25 Mar 2021 00:07:41 +0100</lastBuildDate>
+    <pubDate>Tue, 25 May 2021 23:41:30 +0200</pubDate>
+    <lastBuildDate>Tue, 25 May 2021 23:41:30 +0200</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>德国17岁高中生制作疫苗预约爬虫网站，用户超3千万</title>
+        <description>&lt;p&gt;最近德国COVID疫苗打得火热，超过40%的人口已经完成了第一针，我这种没有优先级的普通人也可以在网上刷疫苗预约了。随着政府的一系列针对打过疫苗人群的开放政策：逛宜家，在餐馆吃饭，和朋友聚会，去游泳馆，泡温泉……疫苗一针难求啊。&lt;/p&gt;
+
+&lt;h3 id=&quot;疫苗预约automation&quot;&gt;疫苗预约Automation&lt;/h3&gt;
+
+&lt;p&gt;既然可以网上预约，那当然可以把这个过程自动化：首先想到的是Python + Selenium。GitHub搜索一下，已经有了数个star很高的Repo。
+分享住在以下几个州的朋友们：BADEN-WÜRTTEMBERG，BRANDENBURG，HAMBURG，NIEDERSACHSEN，SACHSEN，SACHSEN-ANHALT，THÜRINGEN。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;TobseF/impf-bot 
+&lt;a class=&quot;smoothscroll&quot; href=&quot;https://github.com/TobseF/impf-bot&quot;&gt;github.com/TobseF/impf-bot&lt;/a&gt; kotlin/java + Selenium&lt;/li&gt;
+  &lt;li&gt;alfonsrv/impf-botpy
+&lt;a class=&quot;smoothscroll&quot; href=&quot;https://github.com/alfonsrv/impf-botpy&quot;&gt;github.com/TobseF/impf-bot&lt;/a&gt; Python + Selenium&lt;/li&gt;
+  &lt;li&gt;iamnotturner/vaccipy 
+&lt;a class=&quot;smoothscroll&quot; href=&quot;https://github.com/iamnotturner/vaccipy&quot;&gt;github.com/TobseF/impf-bot&lt;/a&gt; Python + Selenium&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;前两个我都试用过，文档也给出了特别详细的步骤，非技术人员也能上手。甚至还给出了dockerfile，如果有闲甚至可以做到完全自动化，扔到pipeline里跑。&lt;/p&gt;
+
+&lt;h3 id=&quot;接种预约爬虫&quot;&gt;接种预约爬虫&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;impfterminradar&lt;/strong&gt;，每隔3-5分钟call一次API，可以看到所有接种中心是否有空位。上班的时候打开网页，勾选附近的接种中心，听到铃声赶快点预约就能拿到预约疫苗的code。&lt;/p&gt;
+
+&lt;p&gt;网址：&lt;a class=&quot;smoothscroll&quot; href=&quot;https://impfterminradar.de/?state=baden_wuerttemberg&quot;&gt;impfterminradar.de&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;impfterminübersicht&lt;/strong&gt;，这个就神奇了，除了可以看到当前哪些接种中心有空位，还可以看到每个接种中心在过去7天是什么时间放出预约的。更神奇的是，我好奇的查了下作者，居然是个17岁的德国高中生。&lt;/p&gt;
+
+&lt;p&gt;网址：&lt;a class=&quot;smoothscroll&quot; href=&quot;http://impfterminübersicht.de/&quot;&gt;impfterminübersicht.de&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;17岁的朱利安·安布罗齐（Julian Ambrozy）住在斯图加特附近，是一名11年级的中学生。为了帮助爷爷约到疫苗，他在复活节假期制作了这个网站。他说，“我想为祖父找到一个疫苗接种预约，有时我坐在电脑前，直到凌晨1点才能等到预约。”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/impf-Julian-Ambrozy.jpg&quot; alt=&quot;drawing&quot; /&gt;
+&lt;em&gt;Julian Ambrozy坐在他的写字台前 @Private&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;安布罗奇的问题是，巴登-符腾堡州，勃兰登堡州，汉堡，萨克森-安哈尔特州，黑森州和北莱茵-威斯特法伦州的接种中心门户网站未发布何时可以找到预约的概览，这显然是出于对疫苗接种旅游的恐惧。如果要在Impfterminservice.de页面上查找可用的预约，则需要相当多的点击和等待。&lt;/p&gt;
+
+&lt;p&gt;因为这个混乱的预订系统，安布罗秋在复活节假期期间编写了一个程序，该程序每隔几分钟就会读取一次接种中心网站，并一目了然地显示免费预约时间。经过30多个小时的工作，安布罗奇为他的祖父完成了impfterminübersicht网站。目前，它提供约100个疫苗接种中心的约会信息。&lt;/p&gt;
+
+&lt;p&gt;30多个小时的Youtube自学和编程，对安布罗奇来说非常值得，他的爷爷已经完成了第一针的接种。&lt;/p&gt;
+
+&lt;p&gt;安布罗奇的上一条Twitter显示，他刚刚发布了impfterminübersicht​的安卓的beta版本。而他正准备购买一台MacBook，开发iOS版本的​app。&lt;/p&gt;
+
+&lt;p&gt;江山代有才人出。想想我17岁的时候，高二，还在题海战术呢。&lt;/p&gt;
+
+&lt;p&gt;祝大家早点打完疫苗，健康的享受夏天的好时光。&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 May 2021 00:00:00 +0200</pubDate>
+        <link>http://happycat.cc/impftermin/</link>
+        <guid isPermaLink="true">http://happycat.cc/impftermin/</guid>
+        
+        
+        <category>Life in Germany</category>
+        
+      </item>
+    
+      <item>
+        <title>Beer List</title>
+        <description>
+&lt;h3 id=&quot;清单我家常备的啤酒&quot;&gt;清单：我家常备的啤酒&lt;/h3&gt;
+
+&lt;p&gt;家里常备的有Helles，Weizen。Helles一般兑柠檬汽水做成Radler喝，白啤通常就直接喝了。我们家是白啤爱好者，所以喝过的白啤更多。&lt;/p&gt;
+
+&lt;p&gt;想要认真的喝一瓶白啤，家里一定要准备几个白啤的高杯子。杯子倾斜，慢慢倒酒，不要起太多泡。最后还剩一点酒的时候，晃一晃瓶子，让泡沫刚刚高出杯子。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/erdinger.jpg&quot; alt=&quot;drawing&quot; /&gt;
+&lt;em&gt;泡沫略微高出杯子，但又不溢出&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Helles&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Chiemseer Hell&lt;/li&gt;
+  &lt;li&gt;Tegernsee Hell&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;这两个都是典型的巴伐利亚淡啤酒，麦子味，玉米味，一点点酒花味。一点点甜，一点点苦，啥时候喝都不出错。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Weizenbier&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Erdinger Hefeweizen&lt;/li&gt;
+  &lt;li&gt;Paulaner Hefe-Weißbier&lt;/li&gt;
+  &lt;li&gt;Franziskaner Hefe-Weißbier&lt;/li&gt;
+  &lt;li&gt;Allgäuer-Büble Edel Weissbier&lt;/li&gt;
+  &lt;li&gt;Riegele Weizen Doppelbock&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;前三个都是来自拜仁的大品牌，出货量大，不会出错的选择。如果人在德国，就没必要只喝大品牌的酒了，很多小城镇的小酒厂也历史悠久，都有不错的品质。&lt;/p&gt;
+
+&lt;p&gt;Allgäuer-Büble Edel Weissbier是一次在饭店喝到的，比起果香，麦子味更重，甚至还有一点杏仁味。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Bock是一种酒精度更高，更strong的啤酒。常见的有Maibock，就是放更多啤酒花的Helles；Doppelbock，stonger &amp;amp; maltier。Bock的度数比普通啤酒略高，别喝多啦～&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Riegele Weizen Doppelbock：热爱白啤的千万别错过这个！简单说就是更烈的白啤，但完全没有普通Bock的苦味或者明显的酒精味，先入口是香蕉、焦糖味，结尾的麦子味超香。Riegele是家德国老酒厂，大部分品种我都喝过，没雷，都好喝。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://stat.ameba.jp/user_images/20200821/07/barwildz/c5/55/j/o0350046714807310125.jpg&quot; alt=&quot;drawing&quot; /&gt;
+&lt;em&gt;我超喜欢的Weizen Doppelbock&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;同样好喝的白啤酒厂，还有Schneider Weisse，6号Mein Aventinus是最早（1907年）的Weizen Doppelbock，7号Mein Original	
+是来自1872年的原始配方制作的Hefeweizen。都很好喝。他们也做Eisbock，12度，对我来说太strong了。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/schneiderWeisse.jpg&quot; alt=&quot;drawing&quot; /&gt;
+&lt;em&gt;最前面的7号就是Original Hefeweizen&lt;/em&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;德国啤酒厂那么多，一个人是喝不完的，欢迎和我交换酒单呀～&lt;/p&gt;
+</description>
+        <pubDate>Sun, 28 Mar 2021 00:00:00 +0100</pubDate>
+        <link>http://happycat.cc/beer-list/</link>
+        <guid isPermaLink="true">http://happycat.cc/beer-list/</guid>
+        
+        
+      </item>
     
       <item>
         <title>野韭菜不能随便割</title>
@@ -812,251 +927,6 @@ SAP，Amazon，Zalando的工资数据来自Glassdoor，level.fyi以及小伙伴�
         <pubDate>Tue, 26 Jan 2021 00:00:00 +0100</pubDate>
         <link>http://happycat.cc/cost-of-living-in-germany/</link>
         <guid isPermaLink="true">http://happycat.cc/cost-of-living-in-germany/</guid>
-        
-        
-        <category>Working in Germany</category>
-        
-      </item>
-    
-      <item>
-        <title>下班后的工作消息要不要回？德国打工人：不回！</title>
-        <description>&lt;h3 id=&quot;不回的诗与远方&quot;&gt;“不回”的“诗与远方”&lt;/h3&gt;
-
-&lt;p&gt;《奇葩说7》第8集的辩题是“下班后的工作消息要不要回？”。在国内工作的朋友们别说我“凡尔赛”，没在国内工作过的我完全不理解为什么下班后还要回消息。下班后根本没人能联系到我😂&lt;/p&gt;
-
-&lt;p&gt;初始观众投票几乎平手，非常出乎意料。听完了正方的观点之后，我才理解为什么很多人认为应该回：&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;不回，错过机会&lt;/li&gt;
-  &lt;li&gt;不回，老板不满&lt;/li&gt;
-  &lt;li&gt;不回，耽误其他人的工作&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;我似乎更幸运，我工作在一个可以轻松说出“不回”的地方。因为有一个不同的视角，因为无法感同身受，我无法轻易的说出在国内工作的朋友们应该“回”还是“不回”。在我看来，这似乎是这个社会所有人应该一起努力改变的事情。&lt;/p&gt;
-
-&lt;p&gt;在一个每个人都“不回”的职场里，不回，是理所应当。辩论中说“不回”是诗与远方，在这道辩题面前，我就生活在“诗与远方”里。&lt;/p&gt;
-
-&lt;h3 id=&quot;工作与生活的边界感&quot;&gt;工作与生活的边界感&lt;/h3&gt;
-
-&lt;p&gt;我对工作与生活的边界感是由身边的同事和这里的法律培养起来的。&lt;/p&gt;
-
-&lt;p&gt;和同事喝咖啡聊天的时候谈起了公司手机。一个免费使用的最新款手机，可以随时查看公司邮件，参加会议，确实为工作提供了方便。但聊天中几个德国同事都表示，绝对不会订公司手机。他们完全不想在工作时间外被联系到。&lt;/p&gt;
-
-&lt;p&gt;很多同事的私人手机号码从不告诉其他同事。实际上，私人手机号码无需告知公司。即使同事知道我的私人手机号码，我也从未因为工作被联系过。&lt;/p&gt;
-
-&lt;p&gt;有天因为工作时间去看医生，下班晚了点，从大楼出来发现整栋楼灯都黑了。发了个朋友圈展示熄灯的办公楼，同事评论，根据工作合同，我们不允许加班。&lt;/p&gt;
-
-&lt;p&gt;我的雇佣合同里清楚的写着，我每周只能工作40小时。任何额外的工作时间都需要经过工会批准。去年圣诞节的时候，我做了第一次的On-call duty。因为这是合同外的工作时间，我按照公司内的要求提前7天向工会提交了申请。当时觉得流程繁琐，现在回想，就能理解这些流程的意义。&lt;/p&gt;
-
-&lt;h4 id=&quot;法律&quot;&gt;法律&lt;/h4&gt;
-
-&lt;p&gt;下班后。根据《工作时间法》（Arbeitszeitgesetz），工作日的工作时间不应超过8小时，员工没有义务在下班后接电话或回复消息。&lt;/p&gt;
-
-&lt;p&gt;周末和节假日。一整天的休假需要做什么？关上公司手机。根据工作时间法，周日和假日不应工作。&lt;/p&gt;
-
-&lt;p&gt;度假。民意调查机构Civey代表TüV做的意向调查里显示，80%的被调查者的老板从不期待在假期中能联络到他们。根据联邦劳工法院的判决，雇主只能在面对生存危机，且“不存在任何其他出路的紧急情况”下打电话(Az. 9 AZR – 405/99)。&lt;/p&gt;
-
-&lt;h4 id=&quot;例外&quot;&gt;例外&lt;/h4&gt;
-
-&lt;p&gt;以上说的都是像我一样的普普通通打工人的情况。如果你承担非常多的责任，且工资很高，就有下班后在紧急情况下工作的义务。&lt;/p&gt;
-
-&lt;p&gt;在某些要求availability的行业中，也存在例外，比如医生、护士、消防员、和7x24小时营业的超市。责任感不能当钱花，所以工作时间外的补贴通常都是正常工资的1.5-3倍。&lt;/p&gt;
-
-&lt;h3 id=&quot;reference&quot;&gt;Reference&lt;/h3&gt;
-
-&lt;p&gt;[1] &lt;a href=&quot;https://www.impulse.de/recht-steuern/rechtsratgeber/erreichbarkeit-urlaub-feierabend/3074874.html&quot;&gt;Darf ich meine Mitarbeiter im Urlaub anrufen?&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 18 Jan 2021 00:00:00 +0100</pubDate>
-        <link>http://happycat.cc/reply-message-after-work/</link>
-        <guid isPermaLink="true">http://happycat.cc/reply-message-after-work/</guid>
-        
-        
-        <category>Working in Germany</category>
-        
-      </item>
-    
-      <item>
-        <title>2021年德国员工最满意雇主</title>
-        <description>&lt;p&gt;Glassdoor根据2019年10月22日 - 2020年10月19日的员工反馈评选出了2021年最佳雇主，评选主要标准是员工对自己所在公司的满意程度。&lt;/p&gt;
-
-&lt;h4 id=&quot;no1-roche-罗氏制药&quot;&gt;No.1 Roche 罗氏制药&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Gutes Arbeitsklima, sehr gute Bezahlung, Work-Life-Balance perfekt.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;良好的工作环境，非常好的薪酬，完美的Work-Life-Balance。&lt;/p&gt;
-
-&lt;h4 id=&quot;no2-google&quot;&gt;No.2 Google&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Super Arbeitsatmosphäre, nette hilfsbereite Kollegen, kostenloses und fantastisches Essen, Yoga, Massagen, alles dabei.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;超级好的工作气氛，友善的乐于提供帮助的同事们，免费且非常棒的食堂，瑜伽，按摩，什么都有了。&lt;/p&gt;
-
-&lt;h4 id=&quot;no3-puma&quot;&gt;No.3 PUMA&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Tolle Work-Life-Balance, tolle Kollegen, wettbewerbsfähiges Gehalt und zahlreiche Möglichkeiten, neue Dinge zu lernen.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;良好的工作与生活平衡，出色的同事，非常有竞争力的薪水，以及大量学习新事物的机会。&lt;/p&gt;
-
-&lt;h4 id=&quot;no4-mhp---a-porsche-company-咨询公司&quot;&gt;No.4 MHP - A Porsche Company 咨询公司&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Man hat sehr große Entwicklungsmöglichkeiten und viel Spielraum, sich ein passendes Projekt zu suchen.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;非常多的发展机会，还有很多寻找合适项目的空间。&lt;/p&gt;
-
-&lt;h4 id=&quot;no5-siemens-healthineers-西门子医疗&quot;&gt;No.5 Siemens Healthineers 西门子医疗&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Tolle Atmosphäre, sehr gute und leistungsgerechte Bezahlung sowie spannende und abwechslungsreiche Aufgaben.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;良好的氛围，与工作绩效相关的非常好的报酬以及激动人心的各种工作。&lt;/p&gt;
-
-&lt;h4 id=&quot;no6-volkswagen-大众汽车&quot;&gt;No.6 Volkswagen 大众汽车&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Flexibilität, neue Handlungsfelder, Entwicklungschancen, Fortbildung, Internationalität.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;灵活，新的领域，发展机会，进阶培训，国际化。&lt;/p&gt;
-
-&lt;h4 id=&quot;no7-sap&quot;&gt;No.7 SAP&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Remote Arbeit wird unterstützt, spannende Projekte, Mitarbeiter stehen im Fokus, zukunftsorientierte Unternehmenswerte.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;支持远程工作，激动人心的项目，员工是公司关注的重点，面向未来的公司价值观。&lt;/p&gt;
-
-&lt;h4 id=&quot;no8-capgemini-凯捷-咨询公司&quot;&gt;No.8 Capgemini 凯捷 咨询公司&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Strukturiertes Onboarding trotz Corona, sehr großes Angebot an Weiterbildungen, flexible Arbeitszeit und Work-from-home.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;尽管有新冠疫情，仍然有结构化的入职培训。许多培训课程，灵活的工作时间，在家工作。&lt;/p&gt;
-
-&lt;h4 id=&quot;no9-porsche-保时捷&quot;&gt;No.9 Porsche 保时捷&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Gute Entwicklungsmöglichkeiten und der neuste Stand der Technik.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;良好的发展机会和最新的技术。&lt;/p&gt;
-
-&lt;h4 id=&quot;no10-bmw-宝马&quot;&gt;No.10 BMW 宝马&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Erfolgreiche Transformation zu nachhaltigem Unternehmen, viele Mitarbeiter-Benefits, hervorragende Arbeitsatmosphäre.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;成功转型为可持续发展的公司，许多员工福利，优越的工作氛围。&lt;/p&gt;
-
-&lt;h4 id=&quot;no11-salesforce&quot;&gt;No.11 Salesforce&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Die Technologie ist super zukunftsorientiert, das Wohl der Mitarbeiter steht im Vordergrund und Werte werden gelebt.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;公司的技术非常先进，员工的幸福感是最重要的，价值被实现。&lt;/p&gt;
-
-&lt;h4 id=&quot;no12-airbus&quot;&gt;No.12 Airbus&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Sehr gute Konditionen, Aufstiegschancen, Weiterbildung und nette Kollegen.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;非常好的条件，晋升的机会，进一步的培训和友善的同事。&lt;/p&gt;
-
-&lt;h4 id=&quot;no13-robert-bosch&quot;&gt;No.13 Robert Bosch&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Sehr abwechslungsreiche Tätigkeit, hervorragende Arbeitsbedingungen und sehr gute Entwicklungsmöglichkeiten.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;工作内容多种多样，优越的工作条件和非常好的发展机会。&lt;/p&gt;
-
-&lt;h4 id=&quot;no14-european-central-bank&quot;&gt;No.14 European Central Bank&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Gute Work-Life-Balance, es gibt viele Möglichkeiten zum Lernen und viele kompetente und freundliche Leute.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;良好的工作与生活平衡，有许多学习的机会，和非常有竞争力且友好的同事。&lt;/p&gt;
-
-&lt;h4 id=&quot;no15-siemens&quot;&gt;No.15 Siemens&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Hohe Selbständigkeit, Weiterbildungen, auf persönliche Interessen wird eingegangen und die Arbeitszeiten sind flexibel.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;高度的独立性，进阶培训，个人兴趣会被考虑在内，灵活的工作时间。&lt;/p&gt;
-
-&lt;h4 id=&quot;no16-infineon-technologies&quot;&gt;No.16 Infineon Technologies&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Sehr gutes Arbeitsklima, jeder Mitarbeiter wird wertgeschätzt, überdurchschnittliche Bezahlung, international &amp;amp; divers.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;非常好的工作氛围，每个员工都受到重视，薪酬高于平均，国际且多元化。&lt;/p&gt;
-
-&lt;h4 id=&quot;no17-adesso-ag-咨询公司&quot;&gt;No.17 Adesso AG 咨询公司&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Gute Community, Obst und Süßigkeiten, erstklassiges Schulungsprogramm und jeder ist ein Teil des Ganzen.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;良好的社区，水果和零食，一流的培训计划，每个人都参与其中。&lt;/p&gt;
-
-&lt;h4 id=&quot;no18-pwc-普华永道&quot;&gt;No.18 PwC 普华永道&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Arbeitskollegen, Lernmöglichkeiten, Networking, Experience, Unterstützung von Managern und Seniors.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;同事，学习机会，人脉关系，经验，来自经理和高级同事的支持。&lt;/p&gt;
-
-&lt;h4 id=&quot;no19-vodafone-沃达丰&quot;&gt;No.19 Vodafone 沃达丰&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;100% Homeoffice, offene Einstellung und Unterstützung für alle Lebenssituationen, positive Unternehmenskultur.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;100%在家办公，开放的态度和对所有生活情况的支持，积极的企业文化。&lt;/p&gt;
-
-&lt;h4 id=&quot;no20-audi&quot;&gt;No.20 Audi&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Sehr gutes Arbeitsklima, tolles Produkt, viele Weiterentwicklungsmöglichkeiten.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;非常好的工作氛围，优秀的产品，许多进一步发展的机会。&lt;/p&gt;
-
-&lt;h4 id=&quot;no21-ikea&quot;&gt;No.21 IKEA&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Gute Entwicklungschancen, viele Benefits und eine sehr offene Unternehmenskultur, in der sich jeder einbringen kann.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;良好的发展机会，许多福利和非常开放的企业文化，每个人都可以参与其中。&lt;/p&gt;
-
-&lt;h4 id=&quot;no22-daimler-戴姆勒&quot;&gt;No.22 Daimler 戴姆勒&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Viele Benefits und Zusatzleistungen, gute Altersversorgung, sicherer Arbeitsplatz und flexible Arbeitszeiten.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;许多福利，良好的退休金，有保障的工作岗位和灵活的工作时间。&lt;/p&gt;
-
-&lt;h4 id=&quot;no23-audibene-医疗器械&quot;&gt;No.23 audibene 医疗器械&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Flache Hierarchien, sehr unternehmerisch, positiver Tatendrang und eine DNA, die Mitarbeiter zu entwickeln.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;扁平的结构，极富企业家精神，积极进取的精神，非常注重培养员工。&lt;/p&gt;
-
-&lt;h4 id=&quot;no24-max-planck-gesellschaft&quot;&gt;No.24 Max-Planck-Gesellschaft&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Sehr hohe Qualität von Instrumenten, Software und Chemikalien. Forschung wird auf dem höchsten Niveau bertrieben.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;高质量的仪器，软件和化学药品。最高级别的研究。&lt;/p&gt;
-
-&lt;h4 id=&quot;no25-allianz&quot;&gt;No.25 Allianz&lt;/h4&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Hervorragende Weiterentwicklungsmöglichkeit innerhalb des Konzerns und eine gute Altersvorsorge.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;公司内进一步发展的的机会和良好的养老条件。&lt;/p&gt;
-</description>
-        <pubDate>Thu, 14 Jan 2021 00:00:00 +0100</pubDate>
-        <link>http://happycat.cc/best-employer-2021/</link>
-        <guid isPermaLink="true">http://happycat.cc/best-employer-2021/</guid>
         
         
         <category>Working in Germany</category>
