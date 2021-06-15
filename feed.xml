@@ -5,9 +5,41 @@
     <description>分享德国生活和工作的那些事情。</description>
     <link>http://happycat.cc/</link>
     <atom:link href="http://happycat.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 May 2021 23:41:30 +0200</pubDate>
-    <lastBuildDate>Tue, 25 May 2021 23:41:30 +0200</lastBuildDate>
+    <pubDate>Tue, 15 Jun 2021 20:09:19 +0200</pubDate>
+    <lastBuildDate>Tue, 15 Jun 2021 20:09:19 +0200</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>今晚9点欧洲杯！德国VS法国</title>
+        <description>&lt;p&gt;欧洲杯的夏天开始啦，其实今天已经是第四个比赛日了。&lt;/p&gt;
+
+&lt;p&gt;今晚德国时间9点，是德国在欧洲杯的第一场比赛！德国的小伙伴们打开电视，&lt;strong&gt;ZDF&lt;/strong&gt;就可以看！没电视的打开ZDF官网，或者下载APP也可以看！今年的欧洲杯德国的转播权被ZDF和ARD承包了，每个月的广播电视费终于用上了😂&lt;/p&gt;
+
+&lt;p&gt;这是勒夫作为德国国家队主教练的最后一个比赛，球员阵容里包括连我都认识的托马斯·穆勒，诺伊尔，还有2018年世界杯小组赛对阵瑞典的那场比赛中在最后关头任意球取胜的克罗斯。&lt;/p&gt;
+
+&lt;p&gt;这是德国和法国历史上的第六次碰面，之前的比赛记录是各两胜和一平。但现在德国队的情况，hmm&lt;/p&gt;
+
+&lt;p&gt;还是祝德国队小组出线！希望夏天长一点！&lt;/p&gt;
+
+&lt;p&gt;收看方式：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;网址：&lt;a class=&quot;smoothscroll&quot; href=&quot;https://www.zdf.de/sport/sport-im-zdf-livestream-live-100.html#videoId=frankreich-deutschland-spiel-12-livestream-100&quot;&gt;ZDF EURO 2020 Live France Germany.de&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ZDF APP （iOS，Android，FireTV，LG等智能电视）&lt;/li&gt;
+  &lt;li&gt;如果你在其他国家，可以在EURO2020的官网找到本地的转播partner：&lt;a class=&quot;smoothscroll&quot; href=&quot;https://www.uefa.com/uefaeuro-2020/news/025a-0ec0d02154c8-5fa71e862f15-1000/&quot;&gt;EUFA EURO 2020 TV broadcast partners, live streams&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/euro2020-1.png&quot; alt=&quot;drawing&quot; /&gt;
+&lt;em&gt;赛前采访&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 15 Jun 2021 00:00:00 +0200</pubDate>
+        <link>http://happycat.cc/euro2020/</link>
+        <guid isPermaLink="true">http://happycat.cc/euro2020/</guid>
+        
+        
+        <category>Life in Germany</category>
+        
+      </item>
     
       <item>
         <title>德国17岁高中生制作疫苗预约爬虫网站，用户超3千万</title>
@@ -789,147 +821,6 @@ SAP，Amazon，Zalando的工资数据来自Glassdoor，level.fyi以及小伙伴�
         
         
         <category>Find a Job in Germany</category>
-        
-      </item>
-    
-      <item>
-        <title>月底能存多少钱？德国生活费用计算器</title>
-        <description>&lt;p&gt;你喜欢充满艺术气息的柏林，还是啤酒超好喝的慕尼黑，或者好多日本拉面店的杜塞尔多夫？在考虑职业规划的时候，搬家并不罕见。然而搬家会对你的财务状况造成怎样的影响？是工作在高薪的慕尼黑可以存下更多钱吗？&lt;/p&gt;
-
-&lt;p&gt;StepStone对这些问题进行了调查，并在一份大型成本报告中给出了395个城市和乡镇地区的128,000份薪水和生活费用。结论：工作在高薪的大城市，并不能保证你月底剩下更多的钱。&lt;/p&gt;
-
-&lt;p&gt;根据调查结果，在鲁尔区工作能让你的钱包里存下更多钱，这里平均工资高，但租金等生活成本相对较低。而慕尼黑这样的繁华大都市提供了高薪，员工们却不得不在日常生活上花费更多。埃森（Essen）是所有大城市中的最大赢家，在这里工作能比慕尼黑存下3倍的钱。如果从这个角度考虑，法兰克福或斯图加特这样的大城市也没有显著的优势。&lt;/p&gt;
-
-&lt;p&gt;如果你是一名在慕尼黑工作的Software Developer，如果搬家到Essen或Karlsruhe，每年可以多存下6000多欧。&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;城市&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;税前工资（€/年）&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;生活成本&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;余额&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Essen&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;51000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;18678&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;11921&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Karlsruhe&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;56000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;21767&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;11832&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Heidelberg&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;56000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;22973&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;10626&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Leipzig&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;46000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;17122&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;10477&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Düsseldorf&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;56000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;23520&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;10080&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Köln&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;55000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;23100&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;9900&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Nürnberg&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;54000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;22680&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;9720&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Hannover&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;52000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;21840&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;9360&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Dresden&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;46000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;18882&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;8717&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Stuttgart&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;59000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;27209&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;8190&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Hamburg&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;54000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;26539&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;5860&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Berlin&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;52000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;26681&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4518&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Frankfurt&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;55000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;28560&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4439&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;München&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;59000&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;31283&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;4116&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;这个数据是如何计算的&quot;&gt;这个数据是如何计算的&lt;/h4&gt;
-
-&lt;p&gt;该计算基于以下假设：德国员工平均将其净收入的70％用于生活水平的投资：租金40％，生活用品15％，休闲活动10％和通勤5％。适用于任何居住地点和工资金额。净工资按总工资的60％计算。所有薪水数字仅供参考，已四舍五入。&lt;/p&gt;
-
-&lt;p&gt;您实际生活条件的费用可能会因您的个人生活方式而异。&lt;/p&gt;
-
-&lt;p&gt;生活数据的成本来自immowelt和Numbeo。&lt;/p&gt;
-
-&lt;p&gt;工资数据基于StepStone工资数据库（您的个人工资可能与平均工资有所不同。在这种情况下，只需将自动填充的平均工资替换为您的实际工资）。&lt;/p&gt;
-
-&lt;p&gt;StepStone生活费用计算器是与杜塞尔多夫大学统计与计量经济学的Prof. Dr. Florian Heiß教授合作完成。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mein Gehalt（我的工资）会自动填入所选城市的平均值，可按实际需求填入自己的实际工资。&lt;/li&gt;
-  &lt;li&gt;Mein Gehalt 默认选项为Netto（税后工资/净工资，按税前工资的60%计算），可以更改为Brutto（税前工资）。&lt;/li&gt;
-  &lt;li&gt;60%的净工资计算方法只适用于大概估算，只能代表单身/夫妻无孩/1级税卡。&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div&gt; 
-    &lt;iframe src=&quot;https://www.stepstone.de/lebenshaltungskosten.html&quot; width=&quot;800px&quot; height=&quot;600px&quot;&gt;
-    &lt;/iframe&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 26 Jan 2021 00:00:00 +0100</pubDate>
-        <link>http://happycat.cc/cost-of-living-in-germany/</link>
-        <guid isPermaLink="true">http://happycat.cc/cost-of-living-in-germany/</guid>
-        
-        
-        <category>Working in Germany</category>
         
       </item>
     
