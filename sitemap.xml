@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://happycat.cc/path-to-germany-faq/</loc>
+<lastmod>2020-01-11T00:00:00+01:00</lastmod>
+</url>
+<url>
 <loc>http://happycat.cc/episode1/</loc>
 <lastmod>2020-08-10T00:00:00+02:00</lastmod>
 </url>
@@ -77,10 +81,6 @@
 <lastmod>2021-03-24T00:00:00+01:00</lastmod>
 </url>
 <url>
-<loc>http://happycat.cc/beer-list/</loc>
-<lastmod>2021-03-28T00:00:00+01:00</lastmod>
-</url>
-<url>
 <loc>http://happycat.cc/impftermin/</loc>
 <lastmod>2021-05-25T00:00:00+02:00</lastmod>
 </url>
@@ -105,6 +105,10 @@
 <lastmod>2022-01-30T00:00:00+01:00</lastmod>
 </url>
 <url>
+<loc>http://happycat.cc/fin-to-cs-master/</loc>
+<lastmod>2022-05-11T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://happycat.cc/about</loc>
 </url>
 <url>
@@ -114,10 +118,10 @@
 <loc>http://happycat.cc/</loc>
 </url>
 <url>
-<loc>http://happycat.cc/job-searching</loc>
+<loc>http://happycat.cc/tags</loc>
 </url>
 <url>
-<loc>http://happycat.cc/tags</loc>
+<loc>http://happycat.cc/category/find-a-job-in-germany/</loc>
 </url>
 <url>
 <loc>http://happycat.cc/category/landed-in-germany/</loc>
@@ -127,9 +131,6 @@
 </url>
 <url>
 <loc>http://happycat.cc/category/working-in-germany/</loc>
-</url>
-<url>
-<loc>http://happycat.cc/category/find-a-job-in-germany/</loc>
 </url>
 <url>
 <loc>http://happycat.cc/category/learn-german/</loc>
