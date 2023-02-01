@@ -5,9 +5,68 @@
     <description>分享德国生活和工作的那些事情。</description>
     <link>http://happycat.cc/</link>
     <atom:link href="http://happycat.cc/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 May 2022 12:55:19 +0200</pubDate>
-    <lastBuildDate>Wed, 18 May 2022 12:55:19 +0200</lastBuildDate>
+    <pubDate>Wed, 01 Feb 2023 16:06:05 +0100</pubDate>
+    <lastBuildDate>Wed, 01 Feb 2023 16:06:05 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>历史学考古学转码？考古信息学</title>
+        <description>&lt;p&gt;过了很久之后又打起精神继续分享有趣的计算机交叉学科硕士项目啦！
+入选的项目都具有以下条件：&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;德国英语授课硕士项目&lt;/li&gt;
+  &lt;li&gt;免学费，或低学费&lt;/li&gt;
+  &lt;li&gt;项目接收非计算机相关专业学生，课程设置包含计算机相关课程，毕业后可以从事计算机相关工作&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;项目&quot;&gt;项目&lt;/h2&gt;
+
+&lt;p&gt;学校：科隆大学 University of Cologne&lt;br /&gt;
+学位：Master of Arts in Digital and Computational Archaeology&lt;br /&gt;
+语言：仅英语&lt;br /&gt;
+学制：4学期&lt;br /&gt;
+开学日期：冬季学期（10月开学）&lt;br /&gt;
+国际学生申请截止日期：7月15日 冬季学期
+学费：0&lt;/p&gt;
+
+&lt;h2 id=&quot;录取要求&quot;&gt;录取要求：&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;英语 托福 iBT 95 或 雅思7.0&lt;/li&gt;
+  &lt;li&gt;数字和计算考古学硕士的申请者应持有考古学或考古学分支学科的学士学位（至少180学分），如史前考古学、古典考古学、古代西亚研究、埃及学或类似学科。邻近学科的本科毕业生，如果在本科学习期间在考古学分支学科中获得至少60个学分，经个案审查后也可被录取。录取学生的决定将由招生委员会作出。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;课程设置可以转码吗&quot;&gt;课程设置：可以转码吗？&lt;/h2&gt;
+&lt;p&gt;在科隆大学学习考古信息学的学生，毕业后可以从事计算机相关工作。该专业专注于数字技术在人类历史研究和解释中的应用，因此为学生提供了从事计算机编程和软件开发的必要技能和知识。学生学习如何使用编程语言，如Python、R，以分析、可视化和处理数据。他们还获得了对考古学方法和理论的理解，以及如何将数字技术应用于考古学研究。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;数据科学（数据库理论和设计、数据可视化和表示）、网络技术和编程（Python、R）方面的核心计算技能，并熟悉当前的考古数据管理和政策问题。&lt;/li&gt;
+  &lt;li&gt;3D技术和媒体的使用，并学习哪些技术最适合在不同的情况和背景下进行数据采集、记录和分析。&lt;/li&gt;
+  &lt;li&gt;地理信息系统（GIS）、空间分析和计算模型在考古学中的应用。&lt;/li&gt;
+  &lt;li&gt;学习识别当前数字人文领域的议题、问题和发展，并获得应用和发展方法和工具的实践经验。&lt;/li&gt;
+  &lt;li&gt;在发掘现场、博物馆或文化遗产管理机构进行工作实习（Praktika）。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;注意：该项目包括一个强制实习，实习可以在科隆，德国的其他城市，或国外。&lt;/p&gt;
+
+&lt;h2 id=&quot;真实案例&quot;&gt;真实案例：&lt;/h2&gt;
+&lt;p&gt;学长A：本科考古学，硕士就读于本项目，毕业三年多了，没有从事考古相关工作，目前在一家德国咨询公司做Cloud Solution Engineer。读书期间在学校做过2年的地理信息系统（GIS）相关的学生研究助理（Wissenschaftliche Hilfskraft），每周工作10小时，月收入大约650欧元，可以cover一半的花销，也积累了经验。&lt;/p&gt;
+
+&lt;p&gt;学姐B：本科历史学（偏东亚研究），硕士就读于本项目，刚刚毕业，还在找工作中，目前正在面试两家公司的Data Analyst。项目很多同学都是历史或者考古专业的背景，往届学长学姐有转码去大公司的，有在博物馆之类的机构工作的，也有继续深造的。&lt;/p&gt;
+
+&lt;p&gt;就读同学C：本科人力资源管理，一硕考古与建筑学，二硕就读于本项目，一硕期间兼职做图书馆的考古研究学者。&lt;/p&gt;
+
+&lt;p&gt;就读同学D：本科历史学，考古新闻记者，目前就读于本项目。&lt;/p&gt;
+
+&lt;p&gt;感谢以上学长学姐们的信息!&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Jan 2023 00:00:00 +0100</pubDate>
+        <link>http://happycat.cc/history-to-cs-master/</link>
+        <guid isPermaLink="true">http://happycat.cc/history-to-cs-master/</guid>
+        
+        
+        <category>Life in Germany</category>
+        
+      </item>
     
       <item>
         <title>文科可以转码吗？经管金融财会市场营销</title>
@@ -591,62 +650,6 @@ Weingut Wilker&lt;/p&gt;
         <pubDate>Tue, 16 Mar 2021 00:00:00 +0100</pubDate>
         <link>http://happycat.cc/visit-doctor-in-germany/</link>
         <guid isPermaLink="true">http://happycat.cc/visit-doctor-in-germany/</guid>
-        
-        
-        <category>Life in Germany</category>
-        
-      </item>
-    
-      <item>
-        <title>德国妹子们也喜欢喝的啤酒混合饮料！</title>
-        <description>&lt;p&gt;天气暖和了，是喝啤酒的季节！来了德国，稍微能喝点酒的朋友都会爱上这里的各式啤酒，不喜欢啤酒苦味的女孩子还可以喝甜甜的汽水兑啤酒。给不能喝酒的小伙伴们介绍几种德国常见的啤酒混合饮料。最后奉上我家里常备的啤酒清单，欢迎小伙伴们和我交换酒单～&lt;/p&gt;
-
-&lt;h3 id=&quot;德国常见啤酒种类&quot;&gt;德国常见啤酒种类&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;皮尔森&lt;/strong&gt;，Pils，和大家在国内常喝到的雪花青岛是同一种，在德国也是最受欢迎的啤酒种类，喝起来有淡淡的啤酒花涩味，非常清爽。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;小麦啤酒&lt;/strong&gt;，也被称为白啤，Weizenbier，最具巴伐利亚特色的啤酒，喝起来有果香味和麦子的香味。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;巴伐利亚淡啤酒&lt;/strong&gt;，德语里叫做Helles/hell，是“bright”，“light”，“pale”的意思。hell其实就是pale lager，pale ale的德国变种。典型的hell酒体重，微甜，颜色浅，苦味淡。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;三月啤酒&lt;/strong&gt;，Märzen，在发明人工降温前只能在3月前制作的啤酒，制作好后存在地下室里，直到夏末秋初，在啤酒节上贩售，所以也被称作Oktoberfestbier（十月节啤酒）。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/oktoberfestbier.jpg&quot; alt=&quot;drawing&quot; /&gt;
-&lt;em&gt;三月啤酒，Märzen，Oktoberfestbier&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;黑啤&lt;/strong&gt;，Dunkel，其实是多种德国深色拉格啤酒的总称，琥珀色到深棕色，顺滑的小麦口味就是黑啤的特点。不过还有一种啤酒，有时候也被叫做黑啤，其实是黑色麦啤，Dunkel Weizen，比白啤多了烘烤过的麦子的味道。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;柏林白啤酒&lt;/strong&gt;，Berliner Weiße，别误会，不是白啤，是一种酸啤。因为酵母菌的参与，啤酒有淡淡的酸味，非常清爽，最适合炎炎夏日啦。&lt;/p&gt;
-
-&lt;h3 id=&quot;混合啤酒饮料&quot;&gt;混合啤酒饮料&lt;/h3&gt;
-
-&lt;p&gt;为啥要讲前面那一大堆啤酒种类，就是为了你兑啤酒饮料的时候分清啤酒种类，不要搞错啦！&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Radler&lt;/strong&gt;（直译：骑自行车者），柠檬味啤酒，在汉堡也叫做Alsterwasser，Pils或Helles兑上柠檬汽水，可以边骑车边喝的低度数酒精混合饮料，发源于柏林的自行车俱乐部酒吧。在拜仁地区，有种类似的混合饮品，由白啤+柠檬汽水组成，叫做Russ。&lt;/p&gt;
-
-&lt;p&gt;制作方法：Pils/Helles + 柠檬味汽水，e.g. 雪花+雪碧，Krombacher Pils + 7up&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Colabier&lt;/strong&gt;：既然有啤酒兑雪碧，当然还有啤酒兑可乐。&lt;/p&gt;
-
-&lt;p&gt;制作方法：Pils/Helles + 可乐，e.g. 雪花+可乐，Krombacher Pils + 可乐&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Colaweizen&lt;/strong&gt;：我自己特别喜欢，可乐兑白啤，加重了白啤的果味，又不掩盖它的麦香。&lt;/p&gt;
-
-&lt;p&gt;制作方法：Weizenbier + 可乐，e.g. 德国白啤+可乐&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Bananenweizen&lt;/strong&gt;，香蕉白啤。除了可乐白啤这个超好喝的搭配外，兑香蕉果汁也是个绝配。没喝过可能无法想象，但是喝过你就会每次在餐馆菜单见到它，都忍不住来一杯。&lt;/p&gt;
-
-&lt;p&gt;制作方法：Weizenbier + 香蕉汁&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Berliner Weiße mit Schuss&lt;/strong&gt;，柏林白啤酒兑水果糖浆，常见的比如树莓糖浆，非常推荐在夏天喝！酸酸甜甜一级棒！家里如果没有糖浆，当然可以直接买瓶装版本！超市有售的Berliner Kindl就是柏林白啤酒的代表品牌，五颜六色的几个品种就是兑不同的糖浆的版本。
-&lt;img src=&quot;/assets/images/berlinerkindl.jpg&quot; alt=&quot;drawing&quot; /&gt;
-&lt;em&gt;黄色是接骨木花，蓝色是原味，粉红色是树莓，绿色是香车叶草，图里没有的粉橘色是大黄&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;除了以上提到的这些，还有各式啤酒兑各种果汁或软饮料，比如超市常见的Schöfferhofer Grapefruit，兑的是西柚汁；Beck’s Ice Lime &amp;amp; Mint是Becks兑薄荷青柠；搜索beer cocktail，就能获得更多灵感～&lt;/p&gt;
-</description>
-        <pubDate>Wed, 24 Feb 2021 00:00:00 +0100</pubDate>
-        <link>http://happycat.cc/beer-mix-in-germany/</link>
-        <guid isPermaLink="true">http://happycat.cc/beer-mix-in-germany/</guid>
         
         
         <category>Life in Germany</category>

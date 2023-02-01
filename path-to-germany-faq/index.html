@@ -26,7 +26,7 @@
 <meta property="twitter:image" content="http://happycat.cc/assets/images/faq.png" />
 <meta property="twitter:title" content="先看这里：润德国的高频问题总结" />
 <script type="application/ld+json">
-{"headline":"先看这里：润德国的高频问题总结","dateModified":"2020-01-11T00:00:00+01:00","datePublished":"2020-01-11T00:00:00+01:00","url":"http://happycat.cc/path-to-germany-faq/","mainEntityOfPage":{"@type":"WebPage","@id":"http://happycat.cc/path-to-germany-faq/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://happycat.cc/assets/images/logo.png"},"name":"CC猫饲养员1号"},"author":{"@type":"Person","name":"CC猫饲养员1号"},"description":"德国求职101","@type":"BlogPosting","image":"http://happycat.cc/assets/images/faq.png","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://happycat.cc/path-to-germany-faq/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://happycat.cc/assets/images/logo.png"},"name":"CC猫饲养员1号"},"url":"http://happycat.cc/path-to-germany-faq/","@type":"BlogPosting","description":"德国求职101","author":{"@type":"Person","name":"CC猫饲养员1号"},"image":"http://happycat.cc/assets/images/faq.png","headline":"先看这里：润德国的高频问题总结","dateModified":"2020-01-11T00:00:00+01:00","datePublished":"2020-01-11T00:00:00+01:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -283,6 +283,317 @@
 
 <p>例子2: 小明在德国一家三口，太太全职，小孩未满18岁，年收入6万，每月5000欧，税后每月3402.54欧。此外还可以领取每月儿童金204欧。你要是问每月200欧能不能养活一个小孩，大众标准的吃穿+上学足够了，因为上学不花钱。</p>
 
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            text-align: left;
+            padding: 8px;
+        }
+
+        body {
+            border: 5px solid grey;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>
+        德国税后工资计算器
+    </h2>
+    <form id="options">
+        <table>
+            <tr>
+                <td><label for="year">
+                        年份
+                    </label></td>
+                <td><select id="year" class="optionInput">
+                        <option selected="selected" value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="income1">年收入</label></td>
+                <td> <input type="number" id="income1" class="optionInput" placeholder="€" value="65000" />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="bundesland">工作地点</label></td>
+                <td><select id="bundesland" class="optionInput">
+                        <option value="Baden-W&uuml;rttemberg">Baden-W&uuml;rttemberg</option>
+                        <option value="Bayern">Bayern</option>
+                        <option value="Berlin (Ost)" selected="selected">Berlin (Ost)</option>
+                        <option value="Berlin (West)">Berlin (West)</option>
+                        <option value="Brandenburg">Brandenburg</option>
+                        <option value="Bremen">Bremen</option>
+                        <option value="Hamburg">Hamburg</option>
+                        <option value="Hessen">Hessen</option>
+                        <option value="Mecklenburg-Vorpommern">Mecklenburg-Vorpommern</option>
+                        <option value="Niedersachsen">Niedersachsen</option>
+                        <option value="Nordrhein-Westfalen">Nordrhein-Westfalen</option>
+                        <option value="Rheinland-Pfalz">Rheinland-Pfalz</option>
+                        <option value="Saarland">Saarland</option>
+                        <option value="Sachsen-Anhalt">Sachsen-Anhalt</option>
+                        <option value="Sachsen">Sachsen</option>
+                        <option value="Schleswig-Holstein">Schleswig-Holstein</option>
+                        <option value="Th&uuml;ringen">Th&uuml;ringen</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="steuerklasse">
+                        选择税卡等级
+                    </label></td>
+                <td><select id="steuerklasse" class="optionInput">
+                        <option value="1" selected="selected">1 单身</option>
+                        <option value="2">2 单亲</option>
+                        <option value="3">3 已婚收入高方</option>
+                        <option value="3">4 已婚双方收入差不多</option>
+                        <option value="3">5 已婚收入低方</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="kid">
+                        有小孩吗？
+                    </label></td>
+                <td><select id="kid" class="optionInput">
+                        <option value="true">有</option>
+                        <option value="false" selected="selected">没有</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><label for="kinderfreibeträge">
+                        儿童免税额
+                    </label></td>
+                <td><select id="kinderfreibeträge" class="optionInput">
+                        <option value="0" selected="selected">0</option>
+                        <option value="0.5">0.5</option>
+                        <option value="1">1</option>
+                        <option value="1.5">1.5</option>
+                        <option value="2">2</option>
+                        <option value="2.5">2.5</option>
+                        <option value="3">3</option>
+                        <option value="3.5">3.5</option>
+                        <option value="4">4</option>
+                        <option value="4.5">4.5</option>
+                        <option value="5">5</option>
+                        <option value="5.5">5.5</option>
+                        <option value="6">6</option>
+                    </select></td>
+            </tr>
+        </table>
+
+        <div>
+            <input type="button" value="计算税后工资" id="calcButton" onclick="calc()" />
+        </div>
+        <br />
+        <table>
+            <tr>
+                <td>工资税</td>
+                <td><span id="res_steuer"></span></td>
+            </tr>
+            <tr>
+                <td>医疗保险</td>
+                <td><span id="res_kv"></span></td>
+            </tr>
+            <tr>
+                <td>护理保险</td>
+                <td><span id="res_pv"></span></td>
+            </tr>
+            <tr>
+                <td>养老保险</td>
+                <td><span id="res_rv"></span></td>
+            </tr>
+            <tr>
+                <td>失业保险</td>
+                <td><span id="res_av"></span></td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <th>税后收入</th>
+                <th><span id="res"></span></th>
+            </tr>
+        </table>
+        <br />
+        <div>
+            <p>
+                这个简易版德国工资税计算器省略了一些输入变量：<br />
+                教堂税：无信仰 (如有，约2%-3%)<br />
+                出生年份： 1957年后 <br />
+                公立医疗保险 14.6% <br />
+                公立医疗保险附加费 1.3% <br />
+                法定养老保险 <br />
+                法定失业保险 <br />
+            </p>
+        </div>
+    </form>
+    <script>
+        /* Quelle der Formeln:
+        https://www.finanz-tools.de/einkommensteuer/berechnung-formeln/2021
+        https://www.finanz-tools.de/einkommensteuer/berechnung-formeln/2020
+        https://www.finanz-tools.de/einkommensteuer/berechnung-formeln/2019 */
+
+        function steuer() {
+            let freibetrag = 0, zvE = 0, ESt = 0, y = 0, z = 0, grenze1 = 0, grenze2 = 0, grenze3 = 0, zahl1 = 0, zahl2 = 0, zahl3 = 0, zahl4 = 0, zahl5 = 0
+            const genau1400 = 1400
+            const knapp2400 = 2397
+            let jahr = Number(document.getElementById("year").value)
+            let einkommen = Number(document.getElementById("income1").value)
+            const res_rv = Number(document.getElementById("res_rv").innerHTML)
+            const res_av = Number(document.getElementById("res_av").innerHTML)
+            const res_kv = Number(document.getElementById("res_kv").innerHTML)
+            const res_pv = Number(document.getElementById("res_pv").innerHTML)
+            const sk = Number(document.getElementById("steuerklasse").value)
+
+            switch (jahr) {
+                case 2022:
+                    freibetrag = 10347
+                    grenze1 = 14926 // 2. Fall: zweiter Betrag
+                    grenze2 = 58596 // 3. Fall: zweiter Betrag
+                    grenze3 = 227825 // 4. Fall: zweiter Betrag
+                    zahl1 = 1008.70
+                    zahl2 = 206.43
+                    zahl3 = 938.24
+                    zahl4 = 9267.53
+                    zahl5 = 17602.28
+                    break;
+            }
+
+            let kfb = Number(document.getElementById("kinderfreibeträge").value) * (5460 + 2928)
+
+            if (sk === 2 && Number(document.getElementById("kinderfreibeträge").value) >= 1) {
+                kfb += (Number(document.getElementById("kinderfreibeträge").value) - 1) * 240 + 4008
+            }
+
+            if (sk === 3) {
+                freibetrag = 19968
+            }
+
+            if (sk === 5) {
+                freibetrag = 0
+                kfb = 0
+            }
+
+            zvE = einkommen - (res_rv + res_kv + res_pv + 1200 + 36 + kfb)
+
+            if (zvE <= freibetrag) { // 1. Fall
+                ESt = 0
+            }
+            else if (zvE > freibetrag && zvE <= grenze1) { // 2. Fall
+                y = (zvE - freibetrag) / 10000
+                ESt = (zahl1 * y + genau1400) * y
+            }
+            else if (zvE > grenze1 && zvE <= grenze2) { // 3. Fall
+                z = (zvE - grenze1) / 10000
+                ESt = (zahl2 * z + knapp2400) * z + zahl3
+            }
+            else if (zvE > grenze2 && zvE <= grenze3) { // 4. Fall
+                ESt = 0.42 * zvE - zahl4
+            }
+            else if (zvE < grenze3) { // 5. Fall
+                ESt = 0.45 * zvE - zahl5
+            }
+
+            document.getElementById("res_steuer").innerHTML = ESt.toFixed(2)
+        }
+
+        function kvpv() {
+            let kv, pv, pv_percent;
+            const grenze_high = 58050
+            const grenze_low = 13160
+            let pv_percent_nokid = 0.01875
+            let pv_percent_kid = 0.01525
+
+            if (document.getElementById("bundesland").value === 'Sachsen') {
+                pv_percent_kid = 0.02025
+                pv_percent_nokid = 0.02375
+            }
+
+            if (document.getElementById("kid").value === 'true') {
+                pv_percent = pv_percent_kid
+            } else {
+                pv_percent = pv_percent_nokid
+            }
+
+            const einkommen = Number(document.getElementById("income1").value)
+            if (einkommen > grenze_high) {
+                kv = grenze_high * (0.073 + 0.0065)
+                pv = grenze_high * pv_percent
+            } else if (einkommen < grenze_low) {
+                kv = grenze_low * (0.073 + 0.0065)
+                pv = grenze_low * pv_percent
+            } else {
+                kv = einkommen * (0.073 + 0.0065)
+                pv = einkommen * pv_percent
+            }
+            document.getElementById("res_kv").innerHTML = kv.toFixed(2)
+            document.getElementById("res_pv").innerHTML = pv.toFixed(2)
+        }
+
+        function rvav() {
+            const einkommen = Number(document.getElementById("income1").value)
+            const location = document.getElementById("bundesland").value
+            let rv, av
+            const ost = [
+                "Brandenburg",
+                "Mecklenburg-Vorpommern",
+                "Sachsen",
+                "Sachsen-Anhalt",
+                "Thüringen",
+                "Berlin (Ost)"
+            ]
+            if (ost.includes(location)) {
+                const grenze = 81000
+                if (einkommen > grenze) {
+                    rv = grenze * 0.093
+                    av = grenze * 0.024 / 2
+                } else {
+                    rv = einkommen * 0.093
+                    av = einkommen * 0.024 / 2
+                }
+            } else {
+                const grenze = 84600
+                if (einkommen > grenze) {
+                    rv = grenze * 0.093
+                    av = grenze * 0.024 / 2
+                } else {
+                    rv = einkommen * 0.093
+                    av = einkommen * 0.024 / 2
+                }
+            }
+            document.getElementById("res_rv").innerHTML = rv.toFixed(2)
+            document.getElementById("res_av").innerHTML = av.toFixed(2)
+        }
+
+        function calc() {
+
+            kvpv()
+            rvav()
+            steuer()
+            const einkommen = Number(document.getElementById("income1").value)
+            if (einkommen <= 450 * 12) {
+                return
+            }
+
+            const res_steuer = Number(document.getElementById("res_steuer").innerHTML)
+            const res_rv = Number(document.getElementById("res_rv").innerHTML)
+            const res_av = Number(document.getElementById("res_av").innerHTML)
+            const res_kv = Number(document.getElementById("res_kv").innerHTML)
+            const res_pv = Number(document.getElementById("res_pv").innerHTML)
+
+            const res = einkommen - res_steuer - res_rv - res_av - res_kv - res_pv
+            document.getElementById("res").innerHTML = res.toFixed(2)
+        }
+    </script>
+</body>
+
 <h2 id="3-房价举几个例子">3. 房价？举几个例子</h2>
 
 <h3 id="租房">租房</h3>
@@ -302,6 +613,7 @@
   <img src="/assets/images/paypal_qrcode.png" width="150" /> 
   <img src="/assets/images/wechatdonation.JPG" width="150" />
 </p>
+
 
             </div>
 
@@ -417,7 +729,7 @@ https://search.google.com/structured-data/testing-tool/u/0/
                 
                     <a class="mt-1 mb-1" href="/categories#Learn-German">Learn German (2)</a>
                 
-                    <a class="mt-1 mb-1" href="/categories#Life-in-Germany">Life in Germany (10)</a>
+                    <a class="mt-1 mb-1" href="/categories#Life-in-Germany">Life in Germany (11)</a>
                 
             
             
@@ -431,7 +743,7 @@ https://search.google.com/structured-data/testing-tool/u/0/
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-6 text-center text-lg-left">
-                Copyright © 2022 CC猫在德国 
+                Copyright © 2023 CC猫在德国 
             </div>
         </div>
     </div>
